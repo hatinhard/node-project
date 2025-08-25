@@ -13,13 +13,6 @@
   font-style: normal;
   font-display: swap;
 }
-body {
-  background-color: #6971a2;
-}
-
-.about-me {
-  color: white;
-}
 
 nav {
   margin-top: 50px;
@@ -60,8 +53,6 @@ h1 {
 button {
   background-color: #4caf50; /* Green */
   border: none;
-
-  color: white;
   padding: 22px 60px;
 
   text-align: center;
@@ -70,6 +61,58 @@ button {
   color: white;
 
   margin: 0 auto;
+  margin-bottom: 157px;
   display: block;
   background-color: #6971a2;
+}
+
+.portfolio {
+  margin-bottom: 100px;
+}
+
+.portfolio-upper-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 39px;
+}
+
+.upper-box-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.portfolio-lower-box {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.lower-box-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-projects-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card-footer {
+  display: flex;
+  gap: 156px;
+}
+
+.card-footer-icons {
+  display: flex;
+}
+
+.recent-projects-title {
+  font-family: "inter-bold";
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 48px;
 }
